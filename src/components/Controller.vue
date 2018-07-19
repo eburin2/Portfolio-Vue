@@ -28,7 +28,6 @@ h3 {
   font-size: 30px;
   padding-bottom: 20px;
   margin: auto;
-  margin-right: 30px;
   white-space: nowrap;
 }
 
