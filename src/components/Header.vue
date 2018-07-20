@@ -1,10 +1,11 @@
 <template>
     <div>
-      <h1 id="name">ELLIOT BURIN</h1>
+      <p id="name">ELLIOT BURIN</p>
       <ul class="nav nav-pills">
-        <router-link to="/" tag="li" active-class="active" exact><a>Bio</a></router-link>
-        <router-link to="/work" tag="li" active-class="active"><a>Work</a></router-link>
-        <router-link to="/contact" tag="li" active-class="active"><a>Contact</a></router-link>
+        <router-link to="/" tag="li" active-class="active" exact><a>BIO</a></router-link>
+        <router-link to="/work" tag="li" active-class="active"><a>WORK</a></router-link>
+        <router-link to="/resume" tag="li" active-class="active"><a>RESUME</a></router-link>
+        <router-link to="/contact" tag="li" active-class="active"><a>CONTACT</a></router-link>
 
       </ul>
     </div>
@@ -21,12 +22,16 @@
 
   #name {
     font-family: 'futura';
+    font-size: 45px;
+    padding-top: 30px;
+    font-weight: bold;
   }
 
   ul {
-    padding-top: 20px;
+    padding-top: 60px;
     font-family: 'futura';
     font-size: 18px;
     margin-left: 10px;
   }
+
 </style>

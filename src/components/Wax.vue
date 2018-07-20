@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <h3 id="wax">Wax Cathedral</h3>
     <a target="_blank" href="https://eburin2.github.io/wax-cathedral-vue/">
       <img class="img-responsive sunlight" src="src/assets/wax.png"/>
@@ -12,6 +12,6 @@
 
 <style scoped>
   #wax {
-    margin-left: 20px;
+    margin-left: 30px;
   }
 </style>

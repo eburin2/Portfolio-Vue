@@ -1,7 +1,7 @@
 <template>
     <div>
-      <h1 id="work">WORK</h1>
-      <br><br>
+      <h1 class="head">WORK</h1>
+      <br><br><br><br>
       <div class="row">
         <div class="col-xs-6  col-md-4">
           <app-controller></app-controller>
@@ -50,7 +50,7 @@
 </script>
 
 <style scoped>
-  #work {
+  .head {
     font-family: 'futura';
   }
 
