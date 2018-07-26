@@ -19,8 +19,7 @@
           <app-debut></app-debut>
         </div>
       </div>
-      <router-view></router-view>
-      <button @click="navigateToHome" class="btn btn-primary">Go to Home</button>
+      <button id="homeWork" @click="navigateToHome" class="btn btn-primary">Go to Home</button>
       <br><br>
     </div>
 </template>
@@ -49,12 +48,13 @@
   }
 </script>
 
-<style scoped>
+<style>
   .head {
     font-family: 'futura';
   }
 
-  button {
-    margin-left: 5px;
+  #homeWork {
+    margin-left: 2px;
+    margin-top: -20px;
   }
 </style>

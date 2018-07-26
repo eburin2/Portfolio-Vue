@@ -2,11 +2,10 @@
     <div>
       <p id="name">ELLIOT BURIN</p>
       <ul class="nav nav-pills">
-        <router-link to="/" tag="li" active-class="active" exact><a>BIO</a></router-link>
+        <router-link to="/" tag="li" active-class="active" exact><a>HOME</a></router-link>
         <router-link to="/work" tag="li" active-class="active"><a>WORK</a></router-link>
         <router-link to="/resume" tag="li" active-class="active"><a>RESUME</a></router-link>
         <router-link to="/contact" tag="li" active-class="active"><a>CONTACT</a></router-link>
-
       </ul>
     </div>
 </template>
@@ -30,7 +29,7 @@
   ul {
     padding-top: 60px;
     font-family: 'futura';
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 10px;
   }
 

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>CONTACT</h1>
-    <h2>eburin2@gmail.com</h2>
-    <br><br>
-    <button class="btn btn-primary" @click="navigateToHome">Go to Home</button>
+    <h1 class="head">CONTACT</h1>
+    <h2 class="head">eburin2@gmail.com</h2>
+    <br>
+    <button id="contactButton" class="btn btn-primary" @click="navigateToHome">Go to Home</button>
   </div>
 </template>
 
@@ -20,5 +20,9 @@
 <style scoped>
   h2:hover {
     text-decoration: underline
+  }
+
+  #contactButton {
+    margin-top: 30px;
   }
 </style>

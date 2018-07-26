@@ -4,8 +4,9 @@
   <br><br>
   <div class="row">
     <div class="col-xs-12">
-      <img class="img-responsive" id="resume" src="src/assets/ebw.png"/>
+      <img class="img-responsive" id="resume" src="https://s3-us-west-2.amazonaws.com/vuejs-portfolio-deploy/resume.png"/>
       <button id="resumeButton" @click="navigateToHome" class="btn btn-primary">Go to Home</button>
+      <br><br>
     </div>
   </div>
 </div>
@@ -30,5 +31,10 @@
   #resume {
     width: 1300px;
     height: 1550px;
+  }
+
+  #resumeButton {
+    margin-left: 55px;
+    margin-top: -35px;
   }
 </style>
