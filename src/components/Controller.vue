@@ -30,7 +30,7 @@ h3 {
   font-size: 30px;
   text-align: center;
   overflow-wrap: break-word;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-bottom: 5px;
   margin-top: -20px;
 }

@@ -11,16 +11,5 @@
 </script>
 
 <style>
-  .sunlight {
-    width: 400px;
-    height: 300px;
-    margin-bottom: 50px;
-  }
-
-
-
-  #custom {
-    padding-left: 15px;
-}
-
+  
 </style>
