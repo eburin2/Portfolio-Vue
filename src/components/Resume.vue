@@ -4,8 +4,8 @@
   <br><br>
   <div class="row">
     <div class="col-xs-12">
-      <img class="img-responsive" id="resume" src="https://s3-us-west-2.amazonaws.com/vuejs-portfolio-deploy/resume.png"/>
-      <button id="resumeButton" @click="navigateToHome" class="btn btn-primary">Go to Home</button>
+      <img class="img-responsive" id="resume" src="https://s3-us-west-2.amazonaws.com/vuejs-portfolio-deploy/eburinresume.png"/>
+      <button id="resumeButton" @click="navigateToHome" class="btn btn-primary">Go to HOME</button>
       <br><br>
     </div>
   </div>
@@ -34,7 +34,7 @@
   }
 
   #resumeButton {
-    margin-left: 55px;
-    margin-top: -35px;
-  }
+  margin-left: 50px;
+}
+
 </style>

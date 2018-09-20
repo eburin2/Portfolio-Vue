@@ -3,7 +3,7 @@
     <h1 class="head">CONTACT</h1>
     <h2 class="head">eburin2@gmail.com</h2>
     <br>
-    <button id="contactButton" class="btn btn-primary" @click="navigateToHome">Go to Home</button>
+    <button id="contactButton" class="btn btn-primary" @click="navigateToHome">Go to HOME</button>
   </div>
 </template>
 

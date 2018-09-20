@@ -19,7 +19,7 @@
           <app-debut></app-debut>
         </div>
       </div>
-      <button id="homeWork" @click="navigateToHome" class="btn btn-primary">Go to Home</button>
+      <button id="homeWork" @click="navigateToHome" class="btn btn-primary">Go to HOME</button>
       <br><br>
     </div>
 </template>
