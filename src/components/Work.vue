@@ -1,7 +1,6 @@
 <template>
     <div>
-      <h1 class="head">WORK</h1>
-      <br><br><br><br>
+      <br><br>
       <div class="row">
         <div class="col-xs-6  col-md-4">
           <app-controller></app-controller>
@@ -19,8 +18,6 @@
           <app-debut></app-debut>
         </div>
       </div>
-      <button id="homeWork" @click="navigateToHome" class="btn btn-primary">Go to HOME</button>
-      <br><br>
     </div>
 </template>
 

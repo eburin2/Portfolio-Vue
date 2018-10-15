@@ -1,15 +1,18 @@
 <template>
   <div>
-  <h1 class="head">RESUME</h1>
-  <br><br>
-  <div class="row">
-    <div class="col-xs-12">
-      <img class="img-responsive" id="resume" src="https://s3-us-west-2.amazonaws.com/vuejs-portfolio-deploy/eburinresume.png"/>
-      <button id="resumeButton" @click="navigateToHome" class="btn btn-primary">Go to HOME</button>
-      <br><br>
+    <h1 class="head">RESUME</h1>
+    <br><br>
+    <div class="row">
+      <div class="col-xs-12">
+        <object data="src/assets/ebres2018.pdf" type="application/pdf" width="100%" height="1670px">
+          <p class="pdf">It appears you don't have a PDF plugin for this browser.
+          No biggie... you can <a href="src/assets/ebres2018.pdf">click here to
+          download the PDF file.</a></p>
+        </object>
+        <button id="resumeButton" @click="navigateToHome" class="btn btn-primary">Go to HOME</button>
+      </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -24,17 +27,18 @@
 
 <style scoped>
   #resumeButton {
-    margin-left: 20px;
-    margin-top: -100px;
+    margin-left: 2px;
+    margin-top: 25px;
+    margin-bottom: 50px;
   }
 
-  #resume {
-    width: 1300px;
-    height: 1550px;
+  .pdf {
+   font-size: 24px;
+   font-family: 'futura';
+   margin-left: 20px;
   }
 
-  #resumeButton {
-  margin-left: 50px;
-}
+
+
 
 </style>

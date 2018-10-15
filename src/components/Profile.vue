@@ -5,15 +5,18 @@
     </div>
     <div>
       <app-blurb></app-blurb>
+      <app-work></app-work>
     </div>
   </div>
 </template>
 
 <script>
   import Blurb from '../components/Blurb.vue';
+  import Work from '../components/Work.vue';
   export default {
     components: {
-      appBlurb: Blurb
+      appBlurb: Blurb,
+      appWork: Work
     }
   }
 
