@@ -18,10 +18,6 @@
 </script>
 
 <style scoped>
-  h2:hover {
-    text-decoration: underline
-  }
-
   #contactButton {
     margin-top: 0px;
     margin-left: 2px;

@@ -2,7 +2,7 @@
   <div class="wrapper">
     <h3 id="wax">Wax Cathedral</h3>
     <a target="_blank" href="https://eburin2.github.io/wax-cathedral-vue/">
-      <img class="img-responsive sunlight" src="https://s3-us-west-2.amazonaws.com/vuejs-portfolio-deploy/wax.png"/>
+      <img class="img-responsive sunlight" src="https://s3-us-west-2.amazonaws.com/elliotburin.com/waxcath.png"/>
     </a>
   </div>
 </template>
