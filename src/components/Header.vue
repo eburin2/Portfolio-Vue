@@ -4,6 +4,7 @@
       <ul class="nav nav-pills">
         <router-link to="/" tag="li" active-class="active" exact><a>HOME</a></router-link>
         <router-link to="/resume" tag="li" active-class="active"><a>RESUME</a></router-link>
+        <router-link to="/github" tag="li" active-class="active"><a>GITHUB</a></router-link>
         <router-link to="/contact" tag="li" active-class="active"><a>CONTACT</a></router-link>
       </ul>
     </div>
