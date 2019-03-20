@@ -22,12 +22,12 @@
 </template>
 
 <script>
+
   import Controller from '../components/Controller.vue';
   import Custom from '../components/Custom.vue';
   import Sacrilicious from '../components/Sacrilicious.vue';
   import Wax from '../components/Wax.vue';
   import Debut from '../components/Debut.vue';
-
 
   export default {
     methods: {
@@ -35,6 +35,7 @@
         this.$router.push('/');
       }
     },
+
     components: {
       appController: Controller,
       appCustom: Custom,
@@ -43,15 +44,5 @@
       appDebut: Debut
     }
   }
+
 </script>
-
-<style>
-  .head {
-    font-family: 'futura';
-  }
-
-  #homeWork {
-    margin-left: 2px;
-    margin-top: -20px;
-  }
-</style>

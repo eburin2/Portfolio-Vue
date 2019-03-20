@@ -11,8 +11,10 @@
 </template>
 
 <script>
+
   import Blurb from '../components/Blurb.vue';
   import Work from '../components/Work.vue';
+
   export default {
     components: {
       appBlurb: Blurb,
@@ -23,15 +25,17 @@
 </script>
 
 <style scoped>
-    .profile {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
 
-    #elliot {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-    }
-  </style>
+  .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #elliot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+</style>

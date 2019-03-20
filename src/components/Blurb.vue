@@ -4,11 +4,9 @@
   </div>
 </template>
 
-<script>
-
-</script>
 
 <style scoped>
+
   #blurb {
     display: flex;
     flex-direction: row;
@@ -26,4 +24,5 @@
   span {
     margin-left: 25px;
   }
+
 </style>

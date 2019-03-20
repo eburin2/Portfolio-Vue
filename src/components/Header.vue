@@ -11,6 +11,7 @@
 </template>
 
 <style scoped>
+
   div {
     display: flex;
     flex-direction: row;
