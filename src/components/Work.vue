@@ -3,6 +3,9 @@
       <br><br>
       <div class="row">
         <div class="col-xs-6  col-md-4">
+          <app-movie></app-movie>
+        </div>
+        <div class="col-xs-6  col-md-4">
           <app-controller></app-controller>
         </div>
         <div class="col-xs-6  col-md-4">
@@ -28,6 +31,7 @@
   import Sacrilicious from '../components/Sacrilicious.vue';
   import Wax from '../components/Wax.vue';
   import Debut from '../components/Debut.vue';
+  import Movie from '../components/Movie.vue';
 
   export default {
     methods: {
@@ -41,7 +45,8 @@
       appCustom: Custom,
       appSacrilicious: Sacrilicious,
       appWax: Wax,
-      appDebut: Debut
+      appDebut: Debut,
+      appMovie: Movie
     }
   }
 

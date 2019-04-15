@@ -1,6 +1,6 @@
 <template>
   <div id="blurb">
-    <p id="content"><span>I'm a Front-end JavaScript Web Developer seeking the opportunity to create clean and results oriented web applications.  Previously, I had over a decade of experience in client facing roles.</span></p>
+    <p id="content"><span>I'm a Front-end JavaScript Cloud Developer seeking the opportunity to create clean and results oriented web applications.  Previously, I had over a decade of experience in client facing roles.</span></p>
   </div>
 </template>
 
