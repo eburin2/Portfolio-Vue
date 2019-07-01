@@ -29,10 +29,12 @@
   .img-main {
     filter: brightness(84%) grayscale(85%);
     transition: filter 500ms ease-in-out;
-    margin-bottom: 50px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    image-rendering: auto;
+    display: block;
     height: 300px;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .img-main:hover {
