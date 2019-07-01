@@ -6,7 +6,7 @@
       <div class="col-xs-12">
         <object data="https://s3-us-west-2.amazonaws.com/elliotburin.com/embresume2019.pdf" type="application/pdf"  width="100%" height="1755px">
           <p class="pdf">It appears you don't have a PDF plugin for this browser.
-          No biggie... you can <a href="https://s3-us-west-2.amazonaws.com/elliotburin.com/ebresume2018.pdf">click here to
+          No biggie... you can <a href="https://s3-us-west-2.amazonaws.com/elliotburin.com/embresume2019.pdf">click here to
           download the PDF file.</a></p>
         </object>
         <button id="resumeButton" @click="navigateToHome" class="btn btn-primary">Go to HOME</button>
