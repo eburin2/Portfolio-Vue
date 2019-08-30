@@ -3,6 +3,9 @@
       <br><br>
       <div class="row">
         <div class="col-xs-6  col-md-4">
+          <app-serverless></app-serverless>
+        </div>
+        <div class="col-xs-6  col-md-4">
           <app-movie></app-movie>
         </div>
         <div class="col-xs-6  col-md-4">
@@ -32,6 +35,7 @@
   import Wax from '../components/Wax.vue';
   import Debut from '../components/Debut.vue';
   import Movie from '../components/Movie.vue';
+  import Serverless from '../components/ServerlessGuru.vue';
 
   export default {
     methods: {
@@ -46,7 +50,8 @@
       appSacrilicious: Sacrilicious,
       appWax: Wax,
       appDebut: Debut,
-      appMovie: Movie
+      appMovie: Movie,
+      appServerless: Serverless
     }
   }
 
