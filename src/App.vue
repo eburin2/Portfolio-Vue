@@ -31,9 +31,10 @@
     transition: filter 500ms ease-in-out;
     width: 100%;
     max-width: 400px;
+    max-height: 300px;
     image-rendering: auto;
     display: block;
-    height: 300px;
+    height: 30vh;
     margin-bottom: 50px;
   }
 

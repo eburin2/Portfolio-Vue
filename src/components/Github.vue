@@ -31,7 +31,8 @@
   }
 
   #github {
-    width: 350px;
+    width: 35vw;
+    max-width: 350px;
   }
 
 
