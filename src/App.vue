@@ -30,11 +30,11 @@
     filter: brightness(84%) grayscale(85%);
     transition: filter 500ms ease-in-out;
     width: 100%;
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
     image-rendering: auto;
     display: block;
-    height: 30vh;
+    height: 40vh;
     margin-bottom: 50px;
   }
 
