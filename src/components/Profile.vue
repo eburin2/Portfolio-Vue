@@ -33,8 +33,9 @@
   }
 
   #elliot {
-    width: 150px;
-    height: 150px;
+    width: 15vw;
+    max-width: 150px;
+    min-width: 150px;
     border-radius: 50%;
   }
 
