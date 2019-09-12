@@ -33,7 +33,6 @@
     max-width: 350px;
     max-height: 350px;
     image-rendering: auto;
-    display: block;
     height: 40vh;
     margin-bottom: 50px;
   }
@@ -44,12 +43,12 @@
 
   h3 {
     font-family: 'futura';
-    font-size: 30px;
     text-align: center;
     overflow-wrap: break-word;
     padding-left: 5px;
     padding-bottom: 5px;
     margin-top: -20px;
+    font-weight: 600;
   }
 
   .head {
@@ -98,5 +97,41 @@
       transform: translateY(0);
     }
   }
+
+  @media only screen and (max-width: 800px) {
+
+  .img-main {
+    width: 47vw;
+    height: 34vh;
+    max-height: 350px;
+    max-width: 350px;
+    margin-right: 15px;
+  }
+
+  .sunlight {
+    padding-left: 22px;
+  }
+
+  #wax {
+    padding-left: 35px;
+  }
+
+  #debut {
+    padding-left: 25px;
+  }
+
+  #dj {
+    padding-left: 40px !important;
+  }
+
+  #movies {
+    padding-left: 50px;
+  }
+
+  #serverless-guru {
+    padding-left: 20px;
+  }
+
+}
 
 </style>

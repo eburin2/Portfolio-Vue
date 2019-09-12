@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 
   #dj {
     padding-left: 5px;
