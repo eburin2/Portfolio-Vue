@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-md-12">
         <app-header></app-header>
         <br><br>
         <transition name="slide" mode="out-in">
@@ -26,15 +26,24 @@
 
 <style>
 
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
   .img-main {
     filter: brightness(84%) grayscale(85%);
     transition: filter 500ms ease-in-out;
     width: 100%;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 360px;
+    max-height: 360px;
     image-rendering: auto;
     height: 40vh;
     margin-bottom: 50px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    z-index: 0;
   }
 
   .img-main:hover {
@@ -101,7 +110,7 @@
   @media only screen and (max-width: 800px) {
 
   .img-main {
-    width: 47vw;
+    width: 44vw;
     height: 34vh;
     max-height: 350px;
     max-width: 350px;
@@ -109,27 +118,32 @@
   }
 
   .sunlight {
-    padding-left: 22px;
+    padding-left: 19px;
+    padding-right: 12px;
   }
 
   #wax {
     padding-left: 35px;
+    padding-right: 20px;
   }
 
   #debut {
-    padding-left: 25px;
+    padding-left: 15px;
   }
 
   #dj {
     padding-left: 40px !important;
+    padding-right: 35px;
   }
 
   #movies {
     padding-left: 50px;
+    padding-right: 30px;
   }
 
   #serverless-guru {
-    padding-left: 20px;
+    padding-left: 17px;
+    padding-right: 10px;
   }
 
 }
