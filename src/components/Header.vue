@@ -31,18 +31,19 @@ div {
 }
 
 ul {
-  padding-top: 60px;
+  padding-top: 41px;
   font-family: 'futura';
   font-size: 16px;
   margin-left: 10px;
 }
 
 header {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1000;
   background-color: white;
-  width: 100% !important;
+  width: 100%;
   display: block;
 }
 
