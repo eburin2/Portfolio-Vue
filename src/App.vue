@@ -26,6 +26,10 @@
 
 <style>
 
+  html, body {
+    background-color: white;
+  }
+
   * {
     box-sizing: border-box;
     margin: 0;
@@ -51,17 +55,23 @@
   }
 
   h3 {
-    font-family: 'futura';
+    font-family: 'Futura';
     text-align: center;
     overflow-wrap: break-word;
     padding-left: 5px;
     padding-bottom: 5px;
     margin-top: -20px;
-    font-weight: 600;
+    font-weight: bold;
+  }
+
+  @font-face {
+    src: url(/fonts/LubalinGraphStd-Demi.otf);
+    font-family: 'repo';
   }
 
   .head {
-    font-family: 'futura';
+    font-family: 'repo';
+    color: #27418C;
   }
 
   #homeWork {
@@ -72,6 +82,7 @@
   .button-main {
     margin-top: 0px;
     margin-left: 2px;
+    font-family: 'repo';
   }
 
   .slide-leave-active {

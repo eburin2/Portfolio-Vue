@@ -3,7 +3,7 @@
       <br><br>
       <div class="row">
         <div class="col-xs-6  col-md-4">
-          <app-serverless></app-serverless>
+          <app-TwelveToneConsulting></app-TwelveToneConsulting>
         </div>
         <div class="col-xs-6  col-md-4">
           <app-movie></app-movie>
@@ -20,9 +20,6 @@
         <div class="col-xs-6  col-md-4">
           <app-wax></app-wax>
         </div>
-        <div class="col-xs-6  col-md-4">
-          <app-debut></app-debut>
-        </div>
       </div>
     </div>
 </template>
@@ -33,9 +30,8 @@
   import Custom from '../components/Custom.vue';
   import Sacrilicious from '../components/Sacrilicious.vue';
   import Wax from '../components/Wax.vue';
-  import Debut from '../components/Debut.vue';
   import Movie from '../components/Movie.vue';
-  import Serverless from '../components/ServerlessGuru.vue';
+  import TwelveToneConsulting from '../components/12ToneConsulting.vue';
 
   export default {
     methods: {
@@ -49,9 +45,8 @@
       appCustom: Custom,
       appSacrilicious: Sacrilicious,
       appWax: Wax,
-      appDebut: Debut,
       appMovie: Movie,
-      appServerless: Serverless
+      appTwelveToneConsulting: TwelveToneConsulting
     }
   }
 

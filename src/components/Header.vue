@@ -1,13 +1,15 @@
 <template>
     <header>
       <div>
-        <p id="name">ELLIOT BURIN</p>
+        <router-link to="/"><p id="name">elliot burin</p></router-link>
         <ul class="nav nav-pills">
-          <router-link to="/" tag="li" active-class="active" exact><a>HOME</a></router-link>
-          <router-link to="/resume" tag="li" active-class="active"><a>RESUME</a></router-link>
-          <router-link to="/github" tag="li" active-class="active"><a>GITHUB</a></router-link>
-          <router-link to="/contact" tag="li" active-class="active"><a>CONTACT</a></router-link>
+          <router-link to="/" tag="li" active-class="active" exact><a class="link">home</a></router-link>
+          <router-link to="/resume" tag="li" active-class="active"><a class="link">resume</a></router-link>
+          <router-link to="/github" tag="li" active-class="active"><a class="link">github</a></router-link>
+          <router-link to="/contact" tag="li" active-class="active"><a class="link">contact</a></router-link>
         </ul>
+      </div>
+      <div class="bar">
       </div>
     </header>
 </template>
@@ -18,16 +20,35 @@ div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 2px solid black;
-  padding-bottom: 20px;
   max-width: 100%;
+  background-color: white;
+}
+
+.link {
+  color: #27418C;
+  font-family: 'repo';
+  font-size: 18px;
+}
+
+.bar {
+  width: 100%;
+  height: 50px;
+  border-bottom: 10px solid #27418C;
+  border-top: 10px solid #27418C;
+  background-color: #81C5E9;
 }
 
 #name {
-  font-family: 'futura';
-  font-size: 45px;
+  font-family: 'repo';
+  font-size: 60px;
   padding-top: 30px;
+  padding-bottom: 0;
   font-weight: bold;
+  color: #27418C;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -46,5 +67,6 @@ header {
   width: 100%;
   display: block;
 }
+
 
 </style>
