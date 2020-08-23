@@ -54,14 +54,27 @@
     filter: brightness(100%) grayscale(0%) !important;
   }
 
+  .content {
+    font-size: 20px;
+    font-family: 'futura', 'sans serif';
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
   h3 {
-    font-family: 'Futura';
+    font-family: 'repo';
     text-align: center;
     overflow-wrap: break-word;
     padding-left: 5px;
     padding-bottom: 5px;
     margin-top: -20px;
     font-weight: bold;
+    color: #27418C;
+  }
+
+  .content-indent {
+    margin-left: 25px;
   }
 
   @font-face {
@@ -152,7 +165,7 @@
     padding-right: 30px;
   }
 
-  #serverless-guru {
+  #twelve-tone {
     padding-left: 17px;
     padding-right: 10px;
   }
