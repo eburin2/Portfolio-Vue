@@ -5,6 +5,10 @@
       <img id="elliot" src="https://s3-us-west-2.amazonaws.com/vuejs-portfolio-deploy/elliot.jpg">
     </div>
     <app-blurb></app-blurb>
+    <br>
+    <button class="button-main btn btn-primary" @click="navigateToHome">go to home</button>
+    <br>
+    <br>
   </div>
 </template>
 
@@ -15,6 +19,11 @@
   export default {
       components: {
       appBlurb: Blurb
+    },
+    methods: {
+      navigateToHome() {
+        this.$router.push('/');
+      }
     }
   }
 </script>

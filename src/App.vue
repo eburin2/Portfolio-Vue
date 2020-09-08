@@ -30,6 +30,12 @@
     background-color: white;
   }
 
+  header, #menu {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+
   * {
     box-sizing: border-box;
     margin: 0;
@@ -130,6 +136,7 @@
       transform: translateY(0);
     }
   }
+
 
   @media only screen and (max-width: 800px) {
 

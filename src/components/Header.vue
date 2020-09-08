@@ -9,11 +9,7 @@
           <router-link to="/about" tag="li" active-class="active"><a class="link">about</a></router-link>
           <router-link to="/contact" tag="li" active-class="active"><a class="link">contact</a></router-link>
         </ul>
-        <div id="hamburger" @click="toggle">
-          <div class="burger-item"></div>
-          <div class="burger-item"></div>
-          <div class="burger-item"></div>
-        </div>
+
         <div id="sidedrawer" v-show="isOpen" @click="toggle">
           <ul>
             <router-link to="/" tag="li" exact><a class="burg-li">home</a></router-link>
@@ -22,6 +18,11 @@
             <router-link to="/about" tag="li"><a class="burg-li">about</a></router-link>
             <router-link to="/contact" tag="li"><a class="burg-li">contact</a></router-link>
           </ul>
+        </div>
+        <div id="hamburger" @click="toggle">
+          <div class="burger-item"></div>
+          <div class="burger-item"></div>
+          <div class="burger-item"></div>
         </div>
       </nav>
       <div class="bar">
@@ -114,7 +115,6 @@ ul {
   }
 }
 
-
 @media only screen and (max-width: 1000px) {
   #name {
     font-size: 50px;
@@ -139,7 +139,7 @@ ul {
   export default {
     name: 'Header',
     data() {
-        return {isOpen: false}
+        return { isOpen: false }
       },
       created() {
         window.addEventListener('click', (e) => {
